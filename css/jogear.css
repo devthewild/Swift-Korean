@@ -5,6 +5,7 @@
 	font-family: verdana;
 	font-size: 15px;
 	line-height: 30px;
+	text-shadow: 0 0 5px #fff;
 }
 
 .bottom-line ul {
@@ -21,7 +22,7 @@
 
 .bottom-line li:nth-child(2n-1) {
 	height: 30px;
-	padding: 0 5px;
+	padding: 0 10px;
 }
 
 .bottom-line li:nth-child(2n) {
