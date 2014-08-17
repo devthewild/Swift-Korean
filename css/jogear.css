@@ -1,0 +1,36 @@
+.bottom-line {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	font-family: verdana;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.bottom-line ul {
+	width: 100%;
+	height: 30px;
+	float: left;
+	margin: 0;
+}
+
+.bottom-line li {
+	float: left;
+	list-style-type: none;
+}
+
+.bottom-line li:nth-child(2n-1) {
+	height: 30px;
+	padding: 0 5px;
+}
+
+.bottom-line li:nth-child(2n) {
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 10px solid transparent;
+}
+
+/* give up */
+/*.bottom-line li[style*="visibility: visible"]:last-of-type {
+	background-color: transparent !important;
+}*/
